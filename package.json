@@ -2,14 +2,15 @@
   "name": "reactnativetabview",
   "version": "0.0.3",
   "description": "Tab view component for React Native",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "files": [
     "src/"
   ],
   "scripts": {
     "test": "jest",
     "flow": "flow",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "babel src/ -d lib/"
   },
   "keywords": [
     "react-native-component",
@@ -69,6 +70,8 @@
     ]
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
     "prop-types": "^15.5.8"
   }
 }
