@@ -7,7 +7,6 @@ import {
   PanResponder,
   Platform,
   StyleSheet,
-  View,
 } from 'react-native';
 import { SceneRendererPropType } from './TabViewPropTypes';
 import type {
