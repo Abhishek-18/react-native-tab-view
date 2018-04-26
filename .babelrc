@@ -1,3 +1,3 @@
 {
-  "presets": ["react-native", "flow"]
+  "presets": [["es2015", { "loose": true}],  "react-native", "flow"]
 }
