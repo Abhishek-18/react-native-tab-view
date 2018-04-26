@@ -1,11 +1,8 @@
 import React from 'react';
-import {TouchableWithoutFeedback} from "react-native";
-const ReactNative = require('react-native');
-const {
+import {
   View,
-  StyleSheet,
-  Text
-} = ReactNative;
+  StyleSheet
+} from "react-native";
 
 export default class TabviewPagerPanChildren extends React.Component {
 
